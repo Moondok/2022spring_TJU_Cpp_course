@@ -1,0 +1,8 @@
+﻿  Koch_curve.cpp
+  anti_aliasing.cpp
+  common.cpp
+  draw_partial_clock.cpp
+  guassian_blur.cpp
+  main.cpp
+  正在生成代码...
+  clock.vcxproj -> D:\Cpp\homework\clock\x64\Debug\clock.exe
