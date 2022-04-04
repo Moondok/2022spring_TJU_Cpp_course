@@ -1,7 +1,7 @@
 /************************************* 
 *Author: Kaixu Chen   Moondok
 *Date: 2022-04-04 16:15:00
-*LastEditTime: 2022-04-04 18:32:52
+*LastEditTime: 2022-04-04 18:46:41
 *Description: 
  ***************************************/
 #include<iostream>
@@ -33,6 +33,7 @@ bool isContinue();
 void delbyID(student * head);
 void modibyID(student *head);
 student *  addbyID(student *head);
+student * quit(student * head);
 /**************************************/
 
 int main()
@@ -100,6 +101,7 @@ int main()
                 cout<<"\n输入错误,请重新输入"<<endl;
         }
     }
+    head=quit(head);
     return 0;
 }
 
@@ -486,4 +488,25 @@ student *addbyID(student * head)
         }
     }
     return head;
+}
+
+/************************************ 
+*description: 销毁单链表
+*param {*}
+*return {*}
+ **************************************/
+student * quit(student * head)
+{
+    student * front =head;
+    if(front==NULL)
+        return NULL;
+    student * behind=head->next;
+    while(behind)
+    {
+        delete front ;
+        front= behind;
+        behind=behind->next;
+    }
+    delete front;
+    return NULL;
 }
