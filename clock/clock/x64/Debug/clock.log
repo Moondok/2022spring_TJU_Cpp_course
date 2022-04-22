@@ -1,8 +1,2 @@
-﻿  Koch_curve.cpp
-  anti_aliasing.cpp
-  common.cpp
-  draw_partial_clock.cpp
-  guassian_blur.cpp
-  main.cpp
-  正在生成代码...
+﻿  LINK : 没有找到 D:\Cpp\homework\clock\x64\Debug\clock.exe 或上一个增量链接没有生成它；正在执行完全链接
   clock.vcxproj -> D:\Cpp\homework\clock\x64\Debug\clock.exe
