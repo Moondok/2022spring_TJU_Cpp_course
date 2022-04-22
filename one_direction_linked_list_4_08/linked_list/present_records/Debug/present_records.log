@@ -1,3 +1,0 @@
-﻿  present_records.c
-D:\Cpp\homework\one_direction_linked_list_4_08\present_records.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  present_records.vcxproj -> D:\Cpp\homework\one_direction_linked_list_4_08\linked_list\Debug\present_records.exe
