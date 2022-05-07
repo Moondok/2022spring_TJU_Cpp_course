@@ -1,2 +1,3 @@
-﻿  main.cpp
+﻿  encoder.cpp
+  LINK : 没有找到 D:\Cpp\homework\jpeg_encoder\Debug\jpeg_encoder.exe 或上一个增量链接没有生成它；正在执行完全链接
   jpeg_encoder.vcxproj -> D:\Cpp\homework\jpeg_encoder\Debug\jpeg_encoder.exe

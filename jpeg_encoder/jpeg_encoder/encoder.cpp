@@ -547,6 +547,11 @@ encoder::~encoder()
 			delete[]Cbmap_DownSamed[i];
 		}
 	}
+	delete[] Ymap;
+	delete[] Crmap;
+	delete[] Cbmap;
+	delete[] Crmap_DownSamed;
+	delete[] Cbmap_DownSamed;
 	if (outfile.is_open())
 		outfile.close();
 	cout << "Done!" << endl;
