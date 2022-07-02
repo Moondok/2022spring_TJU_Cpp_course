@@ -1,13 +1,4 @@
-/************************************* 
-*Author: Kaixu Chen   Moondok
-*Date: 2022-06-21 18:41:51
-*LastEditTime: 2022-06-21 21:44:18
-*Description: 
- ***************************************/
-#include <iostream>
-#include <cmath>
 
-using namespace std;
 
 /**********************************************
 *
@@ -98,17 +89,3 @@ public:
 *
 ***********************************************/
 
-int main() {
-    Circle    c1(2);
-    Square    s1(3);
-    Rectangle r1(4, 5);
-    Trapezoid t1(6, 7, 8);
-    Triangle  t2(3, 4, 5);
-
-    Shape *s[5] = { &c1, &s1, &r1, &t1, &t2 };
-
-    for (int i = 0; i < 5; i++) {
-        cout << s[i]->area() << endl;
-    }
-    return 0;
-}
