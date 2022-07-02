@@ -1,0 +1,4 @@
+﻿  tools.cpp
+D:\Cpp\homework\character_picture\character_picture\character_picture.h(82,27): warning C4838: 从“int”转换到“size_t”需要收缩转换
+D:\Cpp\homework\character_picture\character_picture\PicReader.h(166): message : 查看对正在编译的函数 模板 实例化“void Array::reshape<UINT,UINT,int>(UINT,UINT,int)”的引用
+  character_picture.vcxproj -> D:\Cpp\homework\character_picture\Debug\character_picture.exe
