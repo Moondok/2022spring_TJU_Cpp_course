@@ -1,13 +1,9 @@
 /************************************* 
 *Author: Kaixu Chen   Moondok
 *Date: 2022-06-21 20:33:12
-*LastEditTime: 2022-06-21 21:19:45
+*LastEditTime: 2022-06-21 21:49:58
 *Description: 
  ***************************************/
-#include <iostream>
-#include <cmath>
-
-using namespace std;
 
 /**********************************************
 *
@@ -75,27 +71,3 @@ public:
 *
 ***********************************************/
 
-int main()
-{
-    integral_sin s1;
-    integral_cos s2;
-    integral_exp s3;
-    integral *p;
-
-    cout << "请输入上下限：";
-    cin >> s1;
-    p = &s1;
-    cout << "∫sinxdx的计算结果为：" << (p->value()) << endl;
-
-    cout << "请输入上下限：";
-    cin >> s2;
-    p = &s2;
-    cout << "∫cosxdx的计算结果为：" << (p->value()) << endl;
-
-    cout << "请输入上下限：";
-    cin >> s3;
-    p = &s3;
-    cout << "∫expxdx的计算结果为：" << (p->value()) << endl;
-
-    return 0;
-}
